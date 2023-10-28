@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym website</title>
+    <style>
+        header {
+            position: sticky;
+
+            top: 5px;
+            border: 3px solid rgb(82, 82, 81);
+            background-color: black;
+            border-radius: 40px;
+            height: 80px;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            /* height: 3000px; */
+            background-image: url(https://as1.ftcdn.net/v2/jpg/03/20/54/14/1000_F_320541447_8X9N0UUkZB9CX4VGJdC5xNOLwRciEmLC.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: top;
+
+        }
+
+        .navbar {
+
+            position: sticky;
+            top: 5px;
+
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+
+        nav li a {
+            float: left;
+            text-decoration: none;
+            color: aliceblue;
+
+
+        }
+
+        .navbar li {
+            float: left;
+            padding: 12px 20px;
+        }
+
+        img {
+            height: 30px;
+            /* width: 50px; */
+        }
+
+        #search {
+            float: left;
+            padding-left: 15px;
+            margin-left: 300px;
+            margin-top: 12px;
+        }
+
+        li :hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .container {
+            color: aliceblue;
+            border: 3px solid white;
+            border-radius: 21px;
+            width: 400px;
+            margin-bottom: 3px;
+            margin-left: 200px;
+            display: inline-block;
+            margin-top: 13px;
+            background-color: black;
+
+        }
+
+        #cont :hover {
+            background-color: aliceblue;
+            color: black;
+        }
+
+        p {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        #cont {
+            margin-left: 500px;
+        }
+
+        .cont2 {
+            background-color: rgb(204, 211, 218);
+            background-image: url(img.png);
+            border: 2px solid white;
+            width: 600px;
+            padding: 40px;
+            margin-left: 300px;
+            color: black;
+            border-bottom-right-radius: 70px;
+            border-top-left-radius: 70px;
+            margin-bottom: 100px;
+        }
+
+        input {
+            padding: 5px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .yo{
+            background-color:rgb(216, 215, 214);
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            border: 3px solid wheat;
+            border-radius: 100px;
+            
+
+        }
+        .r{
+            align-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="img"><img src="img.png"></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Franchise</a></li>
+                <li><a href="#">Contact Us</a> </li>
+                <li><a href="#">Gallary</a></li>
+                <input type="text" name="Search" id="search" placeholder="search here">
+            </ul>
+        </nav>
+    </header>
+    <div id="cont">
+        <div class="container">
+            <h3>Mission</h3>
+            <p>Enrich lives through better health, convenience, community, and inspiration-driven franchise ownership
+        </div>
+        <div class="container">
+            <h3>Goals</h3>
+            <p> Increasing club profitability & growth of franchise network Improving the health & member experience
+
+            </p>
+        </div>
+        <div class="container">
+            <h3>Who are we</h3>
+            <p>Our organization believes in a strong corporate culture PEOPLE, PURPOSE, PROFITS, and PLAY are all in our
+                corporate DNA.
+            </p>
+        </div>
+        <div class="container">
+            <h3>AF Global Presence</h3>
+            <p>A new club opens approximately every business day and a new member joins every 45 seconds. Anytime
+                Fitness clubs
+                are now open in 48 countries, 7 continents, and growing.
+            </p>
+
+
+        </div>
+
+    </div>
+    <div class="cont2">
+        <h3 class="yo">ENTER YOUR DETAILS</h3>
+        <p class="yo">
+            Name: <input type="text"><br>
+            Contact details: <input type="number" name="" id=""><br>
+            Email Address: <input type="email" name="" id=""><br>
+            Gender: MALE <input type="radio" name="f" id="m"> FEMALE <input type="radio" name="f" id="m"><br>
+            Address: <input type="text"><br>
+            <input type="submit" value="Submit Now">
+        </p>
+    </div>
+
+
+
+
+</body>
+<footer>
+   <p class="r"> cultfit company by Rishi</p>
+</footer>
+
+</html>
